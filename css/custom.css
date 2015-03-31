@@ -1,0 +1,13 @@
+.background {
+    background: url('../img/IMG_7625.JPG');
+    background-size: cover;
+}
+
+#content {
+    margin-top: 40px;
+    margin-left: 40px;
+    opacity: 0.8;
+    width: 40%;
+    min-width: 300px;
+    color: #DDD;
+}
