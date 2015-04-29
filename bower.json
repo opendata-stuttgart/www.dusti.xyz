@@ -1,0 +1,29 @@
+{
+  "name": "dusti.xyz",
+  "version": "0.0.0",
+  "authors": [
+    "OK Lab Stuttgart"
+  ],
+  "description": "Bezahlbare open source DIY Feinstaub-Sensoren",
+  "license": "MIT",
+  "homepage": "www.dusti.xyz",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "css": "dist/css/bootstrap.min.css",
+      "js": "dist/js/bootstrap.min.js"
+    },
+    "jquery": {
+      "js": "dist/jquery.min.js"
+    }
+  }
+}

@@ -2,14 +2,15 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-  <div class="row" style="margin-top:20px;">
-    <div class="col-xs-12 article">
-      <h2>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+<div class="row">
+  <div class="col-xs-12 article">
+
+    <header>
+      <h1>
+	  {{ page.title }}
         <small>
-          {% assign m = post.date | date: "%-m" %}
-          {{ post.date | date: "%-d." }}
+          {% assign m = page.date | date: "%-m" %}
+          {{ page.date | date: "%-d." }}
           {% case m %}
             {% when '1' %}Januar
             {% when '2' %}Februar
@@ -24,13 +25,14 @@ layout: default
             {% when '11' %}November
             {% when '12' %}Dezember
           {% endcase %}
-          {{ post.date | date: "%Y" }}
+          {{ page.date | date: "%Y" }}
         </small>
-      </h2>
-	<p>
-	  {{ post.content | strip_html | truncatewords:75}}<br>
-        <a href="{{ post.url }}">Weiterlesen …</a>
-	</p>
-    </div>
+	</h1>
+    </header>
+
+    <article>
+      {{ content }}
+    </article>
+
   </div>
-{% endfor %}
+</div>
