@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bericht vom OK-Lab-Treffen"
-date:   2015-04-28 22:00:00
+date:   2015-04-29 16:30:00
 categories: treffen
 ---
 Am 28.&nbsp;April fand das achte Treffen des OK Labs Stuttgart in der Stadtbibliothek statt.  Der Raum war gut gefüllt und es bestand reges Interesse am Fortschritt des Feinstaubprojekts.  Leider existiert derzeit nur ein einzelner Prototyp, weshalb fast alle Arbeit an Andreas hängen bleibt.
