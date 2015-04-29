@@ -1,4 +1,4 @@
-# [DUSTI.X(yz)](http://www.dusti.xyz/)
+# [DUSTI.X(yz)](http://www.dusti.xyz/) [![devDependency Status](https://david-dm.org/opendata-stuttgart/opendata-stuttgart.github.io/dev-status.svg)](https://david-dm.org/opendata-stuttgart/opendata-stuttgart.github.io#info=devDependencies)
 
 Bezahlbare open source DIY Feinstaub-Sensoren
 
